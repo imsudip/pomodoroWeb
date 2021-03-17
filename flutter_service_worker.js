@@ -4,7 +4,7 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "pomodoroWeb/assets/AssetManifest.json": "6ac64ca02af8ce5da83ba5271e7c6db0",
-  "assets/FontManifest.json": "e024588c84b5d20cb7869d6f908130e8",
+  "pomodoroWeb/assets/FontManifest.json": "e024588c84b5d20cb7869d6f908130e8",
   "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
   "assets/NOTICES": "43385cf6312603b917a4539209b56ca9",
   "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
@@ -13,7 +13,7 @@ const RESOURCES = {
   "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
   "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
   "index.html": "401e2868d2a5d1cd37db19c48fc1cd6e",
-  "/pomodoroWeb/": "401e2868d2a5d1cd37db19c48fc1cd6e",
+  "/": "401e2868d2a5d1cd37db19c48fc1cd6e",
   "main.dart.js": "dda611b4679f7eaa7fa259c5d66837bc",
   "manifest.json": "660755bbb6cb759a189a45635ffcd6fe",
   "version.json": "c1c756fc0cced3f4a983d53ea1694f2f"
