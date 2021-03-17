@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "6ac64ca02af8ce5da83ba5271e7c6db0",
+  "pomodoroWeb/assets/AssetManifest.json": "6ac64ca02af8ce5da83ba5271e7c6db0",
   "assets/FontManifest.json": "e024588c84b5d20cb7869d6f908130e8",
   "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
   "assets/NOTICES": "43385cf6312603b917a4539209b56ca9",
