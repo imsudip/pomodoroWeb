@@ -3,12 +3,12 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "pomodoroWeb/assets/AssetManifest.json": "6ac64ca02af8ce5da83ba5271e7c6db0",
-  "pomodoroWeb/assets/FontManifest.json": "e024588c84b5d20cb7869d6f908130e8",
-  "pomodoroWeb/assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-  "pomodoroWeb/assets/NOTICES": "43385cf6312603b917a4539209b56ca9",
-  "pomodoroWeb/assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-  "pomodoroWeb/assets/packages/line_icons/lib/assets/fonts/LineIcons.ttf": "23621397bc1906a79180a918e98f35b2",
+  "assets/AssetManifest.json": "6ac64ca02af8ce5da83ba5271e7c6db0",
+  "assets/FontManifest.json": "e024588c84b5d20cb7869d6f908130e8",
+  "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
+  "assets/NOTICES": "43385cf6312603b917a4539209b56ca9",
+  "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+  "assets/packages/line_icons/lib/assets/fonts/LineIcons.ttf": "23621397bc1906a79180a918e98f35b2",
   "favicon.png": "5dcef449791fa27946b3d35ad8803796",
   "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
   "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
@@ -22,12 +22,12 @@ const RESOURCES = {
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
+  "/pomodoroWeb/",
   "main.dart.js",
   "index.html",
   "assets/NOTICES",
-  "pomodoroWeb/assets/AssetManifest.json",
-  "pomodoroWeb/assets/FontManifest.json"];
+  "assets/AssetManifest.json",
+  "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
   self.skipWaiting();
